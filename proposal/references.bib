@@ -1,0 +1,62 @@
+% References for capstone proposal — Summer 2026
+% Orallexa Calibration: From Paper to Production
+% Curated 2026-06-02
+
+@article{brier1950,
+  title   = {Verification of forecasts expressed in terms of probability},
+  author  = {Brier, Glenn W.},
+  journal = {Monthly Weather Review},
+  volume  = {78},
+  number  = {1},
+  pages   = {1--3},
+  year    = {1950},
+  doi     = {10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2},
+  note    = {The foundational reference for the Brier score metric used in this capstone for measuring probabilistic forecast calibration.}
+}
+
+@book{tetlock2005,
+  title     = {Expert Political Judgment: How Good Is It? How Can We Know?},
+  author    = {Tetlock, Philip E.},
+  year      = {2005},
+  publisher = {Princeton University Press},
+  isbn      = {978-0691128719},
+  note      = {Establishes the methodology for measuring expert calibration over long time horizons. The Good Judgment Project framework is the model for this capstone's pre-registration discipline.}
+}
+
+@article{hanson2003,
+  title   = {Combinatorial information market design},
+  author  = {Hanson, Robin},
+  journal = {Information Systems Frontiers},
+  volume  = {5},
+  number  = {1},
+  pages   = {107--119},
+  year    = {2003},
+  doi     = {10.1023/A:1022058209073},
+  note    = {Theoretical foundation for using prediction markets (Polymarket, Kalshi) as efficient information aggregators. Justifies the use of market-implied probabilities as the Brier baseline.}
+}
+
+@inproceedings{shinn2023,
+  title     = {Reflexion: Language agents with verbal reinforcement learning},
+  author    = {Shinn, Noah and Cassano, Federico and Berman, Edward and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
+  booktitle = {NeurIPS 2023},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2303.11366},
+  note      = {The agent-self-improvement methodology adopted by this capstone's daily-retro loop. Orallexa logs each losing trade to a reflexion file that is fed back into the next day's prompt context.}
+}
+
+@misc{sakana2025dgm,
+  title  = {The Darwin-G\"{o}del Machine: Self-Modifying Agents Through Open-Ended Search},
+  author = {{Sakana AI}},
+  year   = {2025},
+  url    = {https://sakana.ai/dgm},
+  note   = {Inspires the architecture for evolving agent prompts via PR-gated self-improvement. Orallexa's L4 "self-modifying" layer is loosely modeled on the DGM pattern with human-in-the-loop merge gates instead of unconstrained edits.}
+}
+
+@article{ohara1995,
+  title     = {Market Microstructure Theory},
+  author    = {O'Hara, Maureen},
+  publisher = {Blackwell},
+  year      = {1995},
+  isbn      = {978-1557864437},
+  note      = {Background on how information asymmetries propagate through equity markets — used to justify the choice of small-cap pure-play tickers (RKLB, ASTS, etc.) where alpha decay is slower than mega-caps.}
+}
