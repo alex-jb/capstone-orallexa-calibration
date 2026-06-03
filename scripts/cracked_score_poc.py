@@ -77,9 +77,11 @@ def axes(handle: str) -> dict[str, dict]:
     age_score = min(account_days / 30, 100)  # 100 = 8+ years on GH
     # OSS contribution (proxy: stars received total)
     oss_signal = min(stars_total, 5000) / 5000 * 100
-    # Social signal: followers
-    follower_signal = min(followers / 200, 100) * 100 if followers else 0
-    follower_signal = min(followers, 1000) / 1000 * 100
+    # Social signal: log-scale follower count (1k=33, 10k=66, 100k=100)
+    # Linear caps too early — gaearon (90k) and karpathy (195k) both saturate
+    # at 100 with the old min(x,1000)/1000 formula. Log10 spreads them out.
+    import math
+    follower_signal = (math.log10(max(followers, 1)) / 5) * 100 if followers else 0
     # Fork → star ratio (high = code people copy + iterate on, not just star)
     fork_ratio = (forks_total / stars_total * 100) if stars_total else 0
     # Signal/noise: avg stars per repo
