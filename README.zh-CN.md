@@ -4,7 +4,7 @@
 
 **学生:** 季晓宇(Alex Ji)
 **项目:** 叶史瓦大学(Yeshiva University)CS 硕士
-**指导老师:** 待定(申请中)
+**指导老师:** Michael Yang 教授(Capstone in Computer Science I)
 **时间线:** 2026-06-02 → 2026-08-31(13 周)
 **最后更新:** 2026-06-09(第 2 周)
 
@@ -84,7 +84,7 @@ scripts/          Cracked Score Phase 2 POC + weekly Brier 自动生成
 - ✅ 4 篇 postmortem 已发布,带日期 `resolve_by`(上述 F1/F2/F3/F4)
 - ✅ 相邻 OSS 校准工具已 ship(council-diff / council-diff-py / memory-wall-tracker)
 - 🛑 真金部署 **被阻断** 在 walk-forward 闸门(当前 FAIL)。重审 2026-06-23。
-- ⚪ 指导老师签字待定(申请中)
+- ⚪ 指导老师签字待定 — Michael Yang 教授(首次会议安排中)
 - ⚪ 最终论文 draft(目标:2026-08-15)
 
 ## 关联仓库

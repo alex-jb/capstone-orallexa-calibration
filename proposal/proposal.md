@@ -3,7 +3,7 @@
 **Title:** From Paper to Production: Calibration Discipline in a Solo-Operated AI Trading Agent
 
 **Student:** Xiaoyu (Alex) Ji · MS CS · Yeshiva University
-**Proposed advisor:** [TBD — pending faculty signature]
+**Proposed advisor:** Prof. Michael Yang (Capstone in Computer Science I)
 **Submission date:** 2026-06-02
 
 ---
@@ -80,6 +80,8 @@ Key prior work: Brier (1950) for the calibration metric foundation; Tetlock (200
 
 **Signature line for advisor:**
 
-I, ______________________, agree to serve as faculty advisor for this capstone for Summer 2026, including weekly 1-hour discussion meetings and final paper review.
+I, **Prof. Michael Yang**, agree to serve as faculty advisor for this capstone for Summer 2026, including weekly 1-hour discussion meetings and final paper review.
+
+Signature: ______________________
 
 Date: ___________

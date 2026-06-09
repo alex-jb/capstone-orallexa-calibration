@@ -4,7 +4,7 @@
 
 **Student:** Xiaoyu (Alex) Ji
 **Program:** MS Computer Science, Yeshiva University
-**Advisor:** TBD (request pending)
+**Advisor:** Prof. Michael Yang (Capstone in Computer Science I)
 **Timeline:** 2026-06-02 → 2026-08-31 (13 weeks)
 **Last updated:** 2026-06-09 (Week 2)
 
@@ -84,7 +84,7 @@ scripts/          Cracked Score Phase 2 POC + weekly Brier auto-gen
 - ✅ 4 postmortems published with dated `resolve_by` (F1/F2/F3/F4 above)
 - ✅ Adjacent OSS calibration tools shipped (council-diff / council-diff-py / memory-wall-tracker)
 - 🛑 Real-money deployment **BLOCKED** by walk-forward gate (currently FAIL). Re-eval 2026-06-23.
-- ⚪ Advisor signature pending (request open)
+- ⚪ Advisor signature pending — Prof. Michael Yang (first meeting being scheduled)
 - ⚪ Final paper draft (target: 2026-08-15)
 
 ## Related repositories
