@@ -75,13 +75,3 @@ Foundation model APIs (Claude/GPT) make the marginal cost of probability extract
 See `references/references.bib`.
 
 Key prior work: Brier (1950) for the calibration metric foundation; Tetlock (2005) for expert calibration methodology; Hanson (2003) for prediction-market theory; Shinn et al. (2023) for Reflexion-style agent self-improvement loops; Sakana AI (2025) for Darwin-Gödel Machine self-modifying agents.
-
----
-
-**Signature line for advisor:**
-
-I, **Prof. Michael Yang**, agree to serve as faculty advisor for this capstone for Summer 2026, including weekly 1-hour discussion meetings and final paper review.
-
-Signature: ______________________
-
-Date: ___________
