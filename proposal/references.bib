@@ -60,3 +60,50 @@
   isbn      = {978-1557864437},
   note      = {Background on how information asymmetries propagate through equity markets — used to justify the choice of small-cap pure-play tickers (RKLB, ASTS, etc.) where alpha decay is slower than mega-caps.}
 }
+
+@book{tetlock2015,
+  title     = {Superforecasting: The Art and Science of Prediction},
+  author    = {Tetlock, Philip E. and Gardner, Dan},
+  year      = {2015},
+  publisher = {Crown},
+  isbn      = {978-0804136693},
+  note      = {Operationalizes the Good Judgment Project into habits — think in explicit probabilities, update incrementally, keep score honestly. Justifies the capstone's process-over-outcome stance and the public Brier ledger.}
+}
+
+@inproceedings{guo2017,
+  title     = {On Calibration of Modern Neural Networks},
+  author    = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q.},
+  booktitle = {Proceedings of the 34th International Conference on Machine Learning (ICML)},
+  year      = {2017},
+  url       = {https://arxiv.org/abs/1706.04599},
+  note      = {Shows modern deep networks are systematically over-confident; introduces Expected Calibration Error (ECE) and temperature scaling. Motivates treating raw LLM probabilities as uncalibrated signals; supplies ECE as a secondary diagnostic to Brier.}
+}
+
+@misc{kadavath2022,
+  title  = {Language Models (Mostly) Know What They Know},
+  author = {Kadavath, Saurav and Conerly, Tom and Askell, Amanda and others},
+  year   = {2022},
+  url    = {https://arxiv.org/abs/2207.05221},
+  note   = {Empirical (Anthropic) study finding LLMs can be reasonably calibrated on self-assessed correctness but degrade out of distribution. Closest prior work to the capstone's LLM probability-extraction layer; supports it while warning calibration is fragile in adversarial settings.}
+}
+
+@article{kelly1956,
+  title   = {A New Interpretation of Information Rate},
+  author  = {Kelly Jr., John L.},
+  journal = {Bell System Technical Journal},
+  volume  = {35},
+  number  = {4},
+  pages   = {917--926},
+  year    = {1956},
+  doi     = {10.1002/j.1538-7305.1956.tb03809.x},
+  note    = {The Kelly criterion for growth-optimal bet sizing. Connects the capstone's measurement layer (calibrated probability) to its action layer (position size); motivates fractional-Kelly sizing under hard exposure caps.}
+}
+
+@book{wilder1978,
+  title     = {New Concepts in Technical Trading Systems},
+  author    = {Wilder, J. Welles},
+  year      = {1978},
+  publisher = {Trend Research},
+  isbn      = {978-0894590276},
+  note      = {Origin of Average True Range (ATR), the volatility measure behind the capstone's hard-coded stop-loss floors (1.5×ATR(14), 2% min, 15% cap). Documents the provenance of the volatility-aware risk control.}
+}
