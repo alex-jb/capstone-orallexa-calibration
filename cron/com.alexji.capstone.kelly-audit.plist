@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.alexji.capstone.kelly-audit</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/Users/alexji/Desktop/capstone-orallexa-calibration/scripts/kelly_audit.py</string>
+    <string>--top-n</string>
+    <string>30</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/alexji/Desktop/capstone-orallexa-calibration</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>23</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/tmp/capstone-kelly-audit.out</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/capstone-kelly-audit.err</string>
+</dict>
+</plist>
