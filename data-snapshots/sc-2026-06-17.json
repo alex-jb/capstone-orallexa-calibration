@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-06-17T02:41:25.183374+00:00",
+  "threshold": 0.6,
+  "model": "claude-haiku-4-5-20251001",
+  "stats": {
+    "n_total": 8,
+    "n_ok": 8,
+    "avg_second_order_confidence": 0.3375,
+    "min_second_order_confidence": 0.25,
+    "max_second_order_confidence": 0.35,
+    "demote_rate": 1.0,
+    "per_ticker_avg_soc": {
+      "TSM": 0.35,
+      "CEG": 0.35,
+      "KTOS": 0.35,
+      "AVAV": 0.35,
+      "AVGO": 0.35,
+      "NVDA": 0.35,
+      "TSLA": 0.25,
+      "RKLB": 0.35
+    },
+    "top_doubt_clusters": [
+      [
+        "57% barely exceeds random chance; lacks fresh data and clear",
+        1
+      ],
+      [
+        "55% probability is near-random; insufficient conviction in d",
+        1
+      ],
+      [
+        "no access to current ktos data or recent price action; 55% i",
+        1
+      ],
+      [
+        "no access to recent avav data or reasoning; 0.6 is arbitrary",
+        1
+      ],
+      [
+        "55% probability suggests near coin-flip confidence; lacks co",
+        1
+      ],
+      [
+        "no access to current data; 55% near-random suggests high unc",
+        1
+      ],
+      [
+        "50% probability indicates maximum uncertainty; no clear dire",
+        1
+      ],
+      [
+        "52% confidence is barely above random; insufficient edge to ",
+        1
+      ]
+    ]
+  },
+  "records": [
+    {
+      "ticker": "TSM",
+      "timestamp": "2026-06-16T11:32:26.679980",
+      "decision": "BUY",
+      "forecast_p": 0.57,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "57% barely exceeds random chance; lacks fresh data and clear regime identification for TSM",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "CEG",
+      "timestamp": "2026-06-16T11:32:15.906426",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "55% probability is near-random; insufficient conviction in directional thesis or data staleness",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "KTOS",
+      "timestamp": "2026-06-16T11:32:09.464317",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "No access to current KTOS data or recent price action; 55% is near-random guess",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "AVAV",
+      "timestamp": "2026-06-16T11:32:05.993354",
+      "decision": "SELL",
+      "forecast_p": 0.6,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "No access to recent AVAV data or reasoning; 0.6 is arbitrary without current fundamentals",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "AVGO",
+      "timestamp": "2026-06-16T11:32:02.118700",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "55% probability suggests near coin-flip confidence; lacks conviction and data freshness unknown",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "NVDA",
+      "timestamp": "2026-06-16T11:31:58.545522",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "No access to current data; 55% near-random suggests high uncertainty inadequately expressed",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "TSLA",
+      "timestamp": "2026-06-16T11:31:50.669872",
+      "decision": "SELL",
+      "forecast_p": 0.5,
+      "status": "ok",
+      "second_order_confidence": 0.25,
+      "primary_doubt": "50% probability indicates maximum uncertainty; no clear directional conviction or data freshness provided",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    },
+    {
+      "ticker": "RKLB",
+      "timestamp": "2026-06-16T11:31:22.071875",
+      "decision": "BUY",
+      "forecast_p": 0.52,
+      "status": "ok",
+      "second_order_confidence": 0.35,
+      "primary_doubt": "52% confidence is barely above random; insufficient edge to justify conviction in either direction",
+      "would_size_full_kelly": false,
+      "passes_threshold": false,
+      "threshold": 0.6,
+      "gated_decision": "WAIT",
+      "demoted": true
+    }
+  ]
+}
