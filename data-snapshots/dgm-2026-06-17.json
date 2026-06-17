@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "generated_at": "2026-06-17T16:17:06.247902+00:00",
+  "n_proposals": 3,
+  "proposals": [
+    {
+      "proposal": {
+        "proposal_id": "2026-06-17-prompt-tighten-macro-voice",
+        "kind": "prompt_edit",
+        "description": "Tighten Macro voice rationale to \u2264120 chars (was \u2264140); Reflexion cluster shows 30% of dissents truncated mid-thought.",
+        "baseline_brier": 0.182,
+        "candidate_brier": 0.17,
+        "held_out_n": 45,
+        "human_approved": true
+      },
+      "decision": {
+        "status": "approve",
+        "proposal_id": "2026-06-17-prompt-tighten-macro-voice",
+        "brier_delta": 0.011999999999999983,
+        "reason": "Brier improvement +0.0120 \u2265 +0.0050 and human approval present"
+      }
+    },
+    {
+      "proposal": {
+        "proposal_id": "2026-06-17-indicator-atr-floor-2pct",
+        "kind": "indicator_threshold",
+        "description": "Raise ATR stop floor from 1.5%\u00d7ATR to 2%\u00d7ATR on names with realized vol > 35%. Backtest shows narrow improvement on Brier; consider weight.",
+        "baseline_brier": 0.182,
+        "candidate_brier": 0.18,
+        "held_out_n": 45,
+        "human_approved": true
+      },
+      "decision": {
+        "status": "block_no_brier_gain",
+        "proposal_id": "2026-06-17-indicator-atr-floor-2pct",
+        "brier_delta": 0.0020000000000000018,
+        "reason": "Brier improvement +0.0020 below threshold +0.0050"
+      }
+    },
+    {
+      "proposal": {
+        "proposal_id": "2026-06-17-voice-roster-add-quant-momentum",
+        "kind": "voice_roster",
+        "description": "Add 6th voice: Quant Momentum (12-1 month price momentum, Asness 1997). Brier improves but Alex not ready to ship.",
+        "baseline_brier": 0.182,
+        "candidate_brier": 0.162,
+        "held_out_n": 45,
+        "human_approved": false
+      },
+      "decision": {
+        "status": "block_no_human_approval",
+        "proposal_id": "2026-06-17-voice-roster-add-quant-momentum",
+        "brier_delta": 0.01999999999999999,
+        "reason": "Brier improvement +0.0200 sufficient but human approval flag not set; proposal awaits HITL review"
+      }
+    }
+  ]
+}
