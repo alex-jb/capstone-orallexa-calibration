@@ -43,13 +43,85 @@ from calibration.temperature import (
 )
 from calibration.reliability import reliability_diagram_data
 
+# Phase 1 #2 — LLM self-calibration (Kadavath 2022)
+from calibration.self_calibration import (
+    SELF_CAL_PROMPT_TEMPLATE,
+    SelfCalibrationResult,
+    build_prompt as build_self_cal_prompt,
+    parse_response as parse_self_cal_response,
+    apply_decision_gate,
+)
+
+# Phase 1 #3 — Structured Reflexion (Shinn 2023)
+from calibration.reflexion import (
+    Reflexion,
+    from_brier_result,
+    to_json as reflexion_to_json,
+    from_json as reflexion_from_json,
+    append_jsonl as append_reflexion_jsonl,
+    load_jsonl as load_reflexion_jsonl,
+    build_forward_context,
+)
+
+# Phase 1 #4 — Information staleness (O'Hara 1995)
+from calibration.staleness import (
+    DEFAULT_HALF_LIFE_SECONDS,
+    StalenessResult,
+    staleness,
+    weighted_mean,
+)
+
+# Phase 1 #5 — Confidence-shrunk Kelly (Kelly 1956 + Guo 2017)
+from calibration.kelly import (
+    KellyResult,
+    kelly_fraction,
+    confidence_shrunk_kelly,
+)
+
+# Phase 1 #6 — PR-gated self-modification (Sakana 2025)
+from calibration.self_modification import (
+    MergeProposal,
+    MergeDecision,
+    MergeStatus,
+    evaluate as evaluate_merge_proposal,
+)
+
 __all__ = [
+    # #1 ECE + temperature scaling
     "expected_calibration_error",
     "ReliabilityBin",
     "fit_temperature",
     "apply_temperature",
     "nll_loss",
     "reliability_diagram_data",
+    # #2 self-calibration
+    "SELF_CAL_PROMPT_TEMPLATE",
+    "SelfCalibrationResult",
+    "build_self_cal_prompt",
+    "parse_self_cal_response",
+    "apply_decision_gate",
+    # #3 reflexion
+    "Reflexion",
+    "from_brier_result",
+    "reflexion_to_json",
+    "reflexion_from_json",
+    "append_reflexion_jsonl",
+    "load_reflexion_jsonl",
+    "build_forward_context",
+    # #4 staleness
+    "DEFAULT_HALF_LIFE_SECONDS",
+    "StalenessResult",
+    "staleness",
+    "weighted_mean",
+    # #5 kelly
+    "KellyResult",
+    "kelly_fraction",
+    "confidence_shrunk_kelly",
+    # #6 self-modification
+    "MergeProposal",
+    "MergeDecision",
+    "MergeStatus",
+    "evaluate_merge_proposal",
 ]
 
 __version__ = "0.1.0"
