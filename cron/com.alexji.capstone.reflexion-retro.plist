@@ -6,13 +6,9 @@
   <string>com.alexji.capstone.reflexion-retro</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/bin/python3</string>
-    <string>/Users/alexji/Desktop/capstone-orallexa-calibration/scripts/reflexion_retro.py</string>
-    <string>--worst-n</string>
-    <string>3</string>
+    <string>/bin/bash</string>
+    <string>/Users/alexji/.capstone-orallexa-cron/run-reflexion-retro.sh</string>
   </array>
-  <key>WorkingDirectory</key>
-  <string>/Users/alexji/Desktop/capstone-orallexa-calibration</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>

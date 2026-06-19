@@ -6,11 +6,9 @@
   <string>com.alexji.capstone.staleness-audit</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/bin/python3</string>
-    <string>/Users/alexji/Desktop/capstone-orallexa-calibration/scripts/staleness_audit.py</string>
+    <string>/bin/bash</string>
+    <string>/Users/alexji/.capstone-orallexa-cron/run-staleness-audit.sh</string>
   </array>
-  <key>WorkingDirectory</key>
-  <string>/Users/alexji/Desktop/capstone-orallexa-calibration</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Hour</key>

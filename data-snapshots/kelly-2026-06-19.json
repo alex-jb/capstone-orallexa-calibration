@@ -1,0 +1,286 @@
+{
+  "status": "ok",
+  "generated_at": "2026-06-19T03:37:55.906965+00:00",
+  "summary": {
+    "ece_input": 0.045913978494623565,
+    "win_loss_ratio": 1.5,
+    "max_fraction_cap": 0.25,
+    "ece_max": 0.25,
+    "n_forecasts": 30,
+    "raw_total_exposure": 8.85,
+    "shrunk_total_exposure": 6.583405017921147,
+    "exposure_reduction_pct": 25.611242735354264
+  },
+  "audit_rows": [
+    {
+      "ticker": "PL",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "BKSY",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "LUNR",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "ASTS",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "RKLB",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "GEV",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "BE",
+      "decision": "BUY",
+      "forecast_p": 0.57,
+      "raw_kelly": 0.28333333333333327,
+      "shrunk_kelly": 0.2312974910394266,
+      "capped_kelly": 0.2312974910394266,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "KTOS",
+      "decision": "BUY",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "AVGO",
+      "decision": "BUY",
+      "forecast_p": 0.52,
+      "raw_kelly": 0.2,
+      "shrunk_kelly": 0.16326881720430117,
+      "capped_kelly": 0.16326881720430117,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "TSLA",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "RDW",
+      "decision": "SELL",
+      "forecast_p": 0.7,
+      "raw_kelly": 0.4999999999999999,
+      "shrunk_kelly": 0.40817204301075277,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "CRWV",
+      "decision": "BUY",
+      "forecast_p": 0.48,
+      "raw_kelly": 0.1333333333333333,
+      "shrunk_kelly": 0.10884587813620074,
+      "capped_kelly": 0.10884587813620074,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "GEV",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "BE",
+      "decision": "BUY",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "AVAV",
+      "decision": "BUY",
+      "forecast_p": 0.57,
+      "raw_kelly": 0.28333333333333327,
+      "shrunk_kelly": 0.2312974910394266,
+      "capped_kelly": 0.2312974910394266,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "TSLA",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "LIN",
+      "decision": "BUY",
+      "forecast_p": 0.57,
+      "raw_kelly": 0.28333333333333327,
+      "shrunk_kelly": 0.2312974910394266,
+      "capped_kelly": 0.2312974910394266,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "PL",
+      "decision": "BUY",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "BKSY",
+      "decision": "BUY",
+      "forecast_p": 0.6,
+      "raw_kelly": 0.3333333333333333,
+      "shrunk_kelly": 0.2721146953405019,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "LUNR",
+      "decision": "BUY",
+      "forecast_p": 0.52,
+      "raw_kelly": 0.2,
+      "shrunk_kelly": 0.16326881720430117,
+      "capped_kelly": 0.16326881720430117,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "CRWV",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "GEV",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "BE",
+      "decision": "BUY",
+      "forecast_p": 0.6,
+      "raw_kelly": 0.3333333333333333,
+      "shrunk_kelly": 0.2721146953405019,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "KTOS",
+      "decision": "SELL",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "AVAV",
+      "decision": "BUY",
+      "forecast_p": 0.55,
+      "raw_kelly": 0.25000000000000006,
+      "shrunk_kelly": 0.2040860215053765,
+      "capped_kelly": 0.2040860215053765,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "AVGO",
+      "decision": "SELL",
+      "forecast_p": 0.5,
+      "raw_kelly": 0.16666666666666669,
+      "shrunk_kelly": 0.136057347670251,
+      "capped_kelly": 0.136057347670251,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "NVDA",
+      "decision": "BUY",
+      "forecast_p": 0.6,
+      "raw_kelly": 0.3333333333333333,
+      "shrunk_kelly": 0.2721146953405019,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "TSLA",
+      "decision": "BUY",
+      "forecast_p": 0.6,
+      "raw_kelly": 0.3333333333333333,
+      "shrunk_kelly": 0.2721146953405019,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "LMT",
+      "decision": "BUY",
+      "forecast_p": 0.57,
+      "raw_kelly": 0.28333333333333327,
+      "shrunk_kelly": 0.2312974910394266,
+      "capped_kelly": 0.2312974910394266,
+      "shrinkage_factor": 0.8163440860215058
+    },
+    {
+      "ticker": "PL",
+      "decision": "BUY",
+      "forecast_p": 0.62,
+      "raw_kelly": 0.36666666666666664,
+      "shrunk_kelly": 0.2993261648745521,
+      "capped_kelly": 0.25,
+      "shrinkage_factor": 0.8163440860215058
+    }
+  ]
+}

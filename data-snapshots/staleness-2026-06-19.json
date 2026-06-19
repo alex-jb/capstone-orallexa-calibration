@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "generated_at": "2026-06-19T15:29:11.451268+00:00",
+  "lookahead_days": 1,
+  "summary": {
+    "mean_brier_raw": 0.2558188552188553,
+    "mean_brier_weighted": 0.2558188552188553,
+    "delta_weighted_minus_raw": 0.0,
+    "weight_sum": 297.0,
+    "n": 297
+  },
+  "freshness_bins": [
+    {
+      "freshness_bin_lo": 0.8,
+      "freshness_bin_hi": 1.0,
+      "n": 297,
+      "avg_freshness": 1.0,
+      "avg_brier": 0.2558188552188552
+    }
+  ]
+}

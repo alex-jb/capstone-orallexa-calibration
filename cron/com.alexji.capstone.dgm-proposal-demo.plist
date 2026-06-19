@@ -6,11 +6,9 @@
   <string>com.alexji.capstone.dgm-proposal-demo</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/bin/python3</string>
-    <string>/Users/alexji/Desktop/capstone-orallexa-calibration/scripts/dgm_proposal_demo.py</string>
+    <string>/bin/bash</string>
+    <string>/Users/alexji/.capstone-orallexa-cron/run-dgm-proposal-demo.sh</string>
   </array>
-  <key>WorkingDirectory</key>
-  <string>/Users/alexji/Desktop/capstone-orallexa-calibration</string>
   <key>StartCalendarInterval</key>
   <dict>
     <key>Weekday</key>
