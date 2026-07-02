@@ -64,7 +64,16 @@ def rule_based_reflexion(row: dict) -> tuple[str, str, str]:
 
     No LLM dependency. Patterns derived from the capstone literature review.
     """
+    # Historic rows sometimes stored `decision` as a bare string (early
+    # brier-audit format 2026-05-11 → 2026-05-27) rather than the nested
+    # dict shape newer rows use. Normalize so the rest of this function
+    # has one code path. Verified 2026-07-02 after seeing
+    # `AttributeError: 'str' object has no attribute 'get'` in cron logs.
     d = row["decision"]
+    if isinstance(d, str):
+        d = {"decision": d, "ticker": row.get("ticker", "UNKNOWN")}
+    elif not isinstance(d, dict):
+        d = {"decision": "UNKNOWN", "ticker": row.get("ticker", "UNKNOWN")}
     p = row.get("forecast_p", row.get("p"))
     actual = row.get("actual")
     decision = d.get("decision", "UNKNOWN")
@@ -117,7 +126,13 @@ def main() -> int:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     written = 0
     for row in worst:
+        # Same schema normalization as rule_based_reflexion (see comment
+        # there). Two call sites, one bug — needed the fix in both.
         d = row["decision"]
+        if isinstance(d, str):
+            d = {"decision": d, "ticker": row.get("ticker", "UNKNOWN")}
+        elif not isinstance(d, dict):
+            d = {"decision": "UNKNOWN", "ticker": row.get("ticker", "UNKNOWN")}
         cause, lesson, forward_prompt = rule_based_reflexion(row)
         entry = Reflexion(
             timestamp=datetime.now(timezone.utc).isoformat(),
