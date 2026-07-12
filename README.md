@@ -1,5 +1,15 @@
 # Capstone — Orallexa Calibration (Summer 2026)
 
+
+## ⚠️ Educational research, not financial advice
+
+This repository is published for educational and research purposes. Nothing
+here is investment, trading, or financial advice. The models, signals, and
+outputs shown are experimental and may be wrong. Past performance does not
+predict future results. Do not use any output as the basis for a real
+trading, investment, or hedging decision without independent professional
+verification. The author accepts no liability for losses.
+
 **English** | [中文](README.zh-CN.md)
 
 **Student:** Xiaoyu (Alex) Ji
