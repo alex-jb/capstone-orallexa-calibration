@@ -16,7 +16,7 @@ verification. The author accepts no liability for losses.
 **Program:** MS Computer Science, Yeshiva University
 **Advisor:** Prof. Michael Yang (Capstone in Computer Science I)
 **Timeline:** 2026-06-02 → 2026-08-31 (13 weeks)
-**Last updated:** 2026-06-09 (Week 2)
+**Last updated:** 2026-09-20 — weekly Brier-score audit reports auto-generated every Sunday through 2026-09-20 (`weekly-reports/`); Phase 1 calibration modules (#1–#6) and cron health checks shipped in June.
 
 ## One-line thesis
 
